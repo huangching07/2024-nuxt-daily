@@ -4,7 +4,9 @@ const route = useRoute();
 
 <template>
   <div>
-    <h1>Page: 首頁</h1>
+    <h1>前台首頁</h1>
+    Page: index
+    <br />
     目前路由的路徑 - route.fullPath 為：{{ route.fullPath }}
     <br />
     <button class="btn btn-primary">Primary</button>
